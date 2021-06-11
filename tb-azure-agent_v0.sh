@@ -7,9 +7,9 @@ fi
 
 sudo chown ubuntu:ubuntu $agent_folder
 
-config_serverurl="$1"
-config_pat_token="$2"
-config_agentname="$3"
+config_serverurl="https://dev.azure.com/TeamBreakSas/DonutQuiz/"
+config_pat_token="pncatiw5ud3d67ml7qzzrffppsxgrhgyzeq4fyubizxbyb5fut5a"
+config_agentname="$1"
 
 if [ -z "${config_serverurl}" ];then
    echo "serverurl unset"
