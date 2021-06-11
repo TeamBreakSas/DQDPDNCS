@@ -7,7 +7,7 @@ fi
 
 sudo chown ubuntu:ubuntu $agent_folder
 
-config_serverurl="https://dev.azure.com/TeamBreakSas/DonutQuiz/"
+config_serverurl="https://dev.azure.com/TeamBreakSas/"
 config_pat_token="pncatiw5ud3d67ml7qzzrffppsxgrhgyzeq4fyubizxbyb5fut5a"
 config_agentname="$1"
 
